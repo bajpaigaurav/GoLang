@@ -8,14 +8,14 @@ func main() {
 
 	var length = len(input)
 
-	sort(input, length)
+	selectSort(input, length)
 
 	for i := 0; i < length; i++ {
 		fmt.Println(input[i])
 	}
 }
 
-func sort(array []int, len int) {
+func selectSort(array []int, len int) {
 
 	var minIndex int
 
